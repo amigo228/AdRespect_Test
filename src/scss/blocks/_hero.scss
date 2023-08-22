@@ -1,14 +1,15 @@
 .hero-section {
   padding-top: 76px;
+  background-color: #dfdfdf;
 
   @include media-breakpoint-down('lg') {
     padding-top: 50px;
   }
 
   .container {
-    max-width: 1440px;
     padding: 0;
-    margin-right: unset;
+    max-width: 1440px;
+    margin: 0 auto;
 
     .row {
       background-color: #DCC1AB;
@@ -164,6 +165,9 @@
     }
 
     .trans-btn {
+
+      border: none;
+
       a {
         display: inline-block;
         color: #1B5B31;

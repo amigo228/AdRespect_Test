@@ -41,7 +41,7 @@ const navItems = document.querySelectorAll('.nav-item');
 
 navItems.forEach(navItem => {
     const options = navItem.querySelector('.options');
-    if (options) { // Проверяем, что элемент найден
+    if (options) {
         navItem.addEventListener('mouseenter', () => {
             options.style.display = 'flex';
             setTimeout(() => {
@@ -78,10 +78,10 @@ navLinkText.addEventListener('click', () => {
     }
 });
 
-$('.slick-container').slick({slidesToShow: 1, // Количество видимых слайдов
-    slidesToScroll: 1, // Количество прокручиваемых слайдов
-    arrows: true, // Показывать стрелки навигации
-    dots: false, // Показывать точки пагинации
+$('.slick-container').slick({slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
 });
 
 const btn = document.querySelector('.btn-brg-holder');
