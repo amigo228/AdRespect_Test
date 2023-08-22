@@ -7,6 +7,7 @@ const msnry = new Masonry(grid, {
     gutter: 43,
     columnWidth: 451,
     horizontalOrder: true,
+    fitWidth: true,
 });
 
 expandBtn.addEventListener('click', () => {
